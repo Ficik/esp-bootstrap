@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="milligram.min.css" type="text/css">
+  <script src="vue.min.js"></script>
+  <script src="info.js"></script>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>ESP basic</title>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav_name">
+      ESP configuration
+    </div>
+    <ul class="nav__side-menu menu">
+        <li class="menu__item"><a href="" class="menu__link">Status</a></li>
+    </ul>
+    <div class="nav__top-menu">
+
+    </div>
+  </nav>
+  <h1>Hello ESP</h1>
+  <div id="app">
+    <h2>Info</h2>
+    <log-viewer></log-viewer>
+    <pre id="InfoBlock"></pre>
+  </div>
+</body>
+</html>
+<script type="text/x-template" id="log-viewer-template">
+  <div>
+    Hello
+  </div>
+</script>
